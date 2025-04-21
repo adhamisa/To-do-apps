@@ -7,3 +7,5 @@ print ("edit yang kedua")
 print ("edit yang ketiga using pipeline")
 
 print ("test freestyle project")
+
+print ("test freestyle project for pipeline")
