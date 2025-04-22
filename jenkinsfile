@@ -1,17 +1,5 @@
 pipeline {
     agent any
-    environment {
-            DOCKER_HUB_REPO = 'adhamutm/devopstest'
-    }
-    stages {
-        stage( 'Build Docker Image' ){
-            steps {
-                script {
-                        echo 'building docker image..'
-                        docker.build ("${DOCKER_HUB_REPO}:latest")
-                }
-            }
-        }
         stage('Build') {
             steps {
                 echo 'Building...'
