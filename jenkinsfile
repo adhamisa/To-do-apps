@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-            DOCKER_HUB_REPO = 'test/test-app'
+            DOCKER_HUB_REPO = 'adhamutm/devopstest'
     }
     stages {
         stage( 'Build Docker Image' ){
