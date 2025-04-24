@@ -10,4 +10,4 @@ print ("test freestyle project")
 
 print ("test freestyle project for pipeline")
 
-print ("test 24 April 2025")
+print ("test pipeline 24 April 2025")
