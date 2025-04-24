@@ -9,3 +9,5 @@ print ("edit yang ketiga using pipeline")
 print ("test freestyle project")
 
 print ("test freestyle project for pipeline")
+
+print ("test 24 April 2025")
